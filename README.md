@@ -1,4 +1,3 @@
-expiremnet1 java
 package vishex.pkg1;
 import java.util.Scanner;
 
@@ -29,8 +28,30 @@ public class Vishex1 {
             }
             System.out.println();
         }
-        System.out.println("M="+m+" N="+n);
-    
+        System.out.println("Enter the elements of Matrix B");
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                b[i][j]=s.nextInt();
+            }
+        }
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                System.out.print(b[i][j]+" ");
+            }
+            System.out.println();
+        
+    }
+
+        System.out.println("SUM of A & B:");
+        
+         for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                sum[i][j]=a[i][j]+b[i][j];
+            
+                System.out.print(sum[i][j]+" ");
+            }
+            System.out.println();
+         }
     
         }
     }
