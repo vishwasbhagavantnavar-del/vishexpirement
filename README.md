@@ -27,7 +27,7 @@ public class Vishex1 {
             for(int j=0;j<n;j++){
                 System.out.print(a[i][j]+" ");
             }
-            System.out.println("");
+            System.out.println();
         }
         System.out.println("M="+m+" N="+n);
     
